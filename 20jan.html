@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Margin in Div</title>
+    <style>
+        /* Styles for the div container */
+        .container {
+            margin: 20px; /* Applying margin to the div */
+            padding: 20px;
+            background-color: #f4f4f4;
+            border: 2px solid #ccc;
+            text-align: center;
+        }
+
+        /* Styles for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Styles for the table cells */
+        th, td {
+            border: 1px outset #000; /* solid,dashed,outset,inset,double, ridge */
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Styles for table headers */
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Styles for table rows on hover */
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Div container with margin -->
+    <div class="container">
+        <h2>Table Example with CSS Margin on Div</h2>
+        
+        <!-- Table definition -->
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Johnny</td>
+                    <td>Disha</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>Jatin</td>
+                    <td>Smith</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Michael</td>
+                    <td>Johnson</td>
+                    <td>45</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

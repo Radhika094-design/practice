@@ -1,0 +1,13 @@
+/* CSS for div elements */
+div {
+    border: 2px dotted black; 
+    padding: 10px;          
+    margin: 10px;           
+}
+
+/* CSS for p elements */
+p {
+    border: 1px outset gray; 
+    padding: 5px;            
+    margin: 5px;            
+}

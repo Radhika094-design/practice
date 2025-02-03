@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header main footer layout </title>
+    <style>
+        /* .container{
+            display: grid;
+            grid-template-rows: 50 px 1fr 50px;
+            height:100vh;
+            gap:10px;
+        } */
+        *{
+            text-align:center;
+           align-items:center ;
+        }
+        div{
+            border: 2px solid grey;
+            height: 10px;
+            background-color: aquamarine;
+            width: 10px;
+            
+        }
+        #submit{
+            border-radius:5px;
+            color:black;
+            background-color:rgb(46, 128, 128);
+
+        }
+        .input{
+            display:flex;
+            justify-content: left;
+            width: 9.5 cm;
+            height: 0.7cm;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "container">
+    <h1>Contact Us</h1>
+    <p>Fullname</p>
+  
+    <input type = "text" name = "username">
+    <p>Email address</p>
+
+    <input type = "text" name = "email">
+        <p>Message</p>
+    <textarea id  = "text" name = "message"></textarea>
+    <br>
+    <button id = "submit">Submit</button>
+</div>
+</body>
+</html>
